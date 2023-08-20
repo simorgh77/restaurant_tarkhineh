@@ -7,5 +7,5 @@ export default defineConfig({
   buidl:{
     outDir:'./build',
   },
-  base:'/restaurant_tarkhineh/'
+  base:'https://simorgh77.github.io/restaurant_tarkhineh/'
 })
