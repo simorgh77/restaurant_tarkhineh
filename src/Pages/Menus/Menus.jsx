@@ -5,7 +5,7 @@ import useFetchData from '../../hooks/useFetchData';
 
 import MenusBox from '../../Components/MenusBox/MenusBox'
 import ContentTabTitle from '../../Components/ContentTabTitle/ContentTabTitle';
-import EmptyMenuBox from '../../Components/emptyMenuBox/emptyMenuBox';
+// import EmptyMenuBox from '../../Components/emptyMenuBox/emptyMenuBox';
 import FilterTabTitle from '../../Components/FilterTabTitle/FilterTabTitle';
 import ErrorBox from '../../Components/ErrorBox/ErrorBox';
 
@@ -215,7 +215,8 @@ export default function Menus() {
                                     />
                                 )))
                                 : (
-                                    <EmptyMenuBox />
+                                    <></>
+                                    // <EmptyMenuBox />
                                 )
                         }
 
@@ -242,7 +243,8 @@ export default function Menus() {
                                     />
                                 )))
                                 : (
-                                    <EmptyMenuBox />
+                                    <></>
+                                    // <EmptyMenuBox />
                                 )
                         }
 
@@ -268,7 +270,8 @@ export default function Menus() {
                                     />
                                 )))
                                 : (
-                                    <EmptyMenuBox />
+                                    <></>
+                                    // <EmptyMenuBox />
                                 )
                         }
                     </div>
@@ -293,7 +296,8 @@ export default function Menus() {
                                     />
                                 )))
                                 : (
-                                    <EmptyMenuBox />
+                                    <></>
+                                    // <EmptyMenuBox />
                                 )
                         }
                     </div>
